@@ -1,0 +1,10 @@
+{
+  "charset": "utf-8",
+  "tabWidth": 2,
+  "semi": true,
+  "useTabs": false,
+  "insertFinalNewline": true,
+  "trimTrailingWhitespace": true,
+  "endOfLine": "lf",
+  "printWidth": 100
+}
