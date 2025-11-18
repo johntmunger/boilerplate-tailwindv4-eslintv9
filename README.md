@@ -47,8 +47,8 @@ Add to App.vue or similar component for testing
 
 ```
 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-    Click Me
-  </button>
+  Click Me
+</button>
 ```
 
 # How to get ESLint 9.11.1 to run in Vue 3

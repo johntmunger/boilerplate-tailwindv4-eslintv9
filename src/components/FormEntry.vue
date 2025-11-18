@@ -25,10 +25,12 @@ function addFriend() {
   <form id="entry-form" class="entry-form">
     <textarea placeholder="Who is your friend?"></textarea>
     <div class="entry-form-footer">
-      <!-- use the span below in another component to share global state -->
       <span>Currenly you have no friends</span>
 
-      <button type="button">
+      <button
+        type="button"
+        class="active:shadow-inner active:scale-95 transition duration-150 ease-in-out cursor-pointer"
+      >
         Add a friend
         <span class="icon">
           <svg
