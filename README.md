@@ -118,7 +118,7 @@ npm run format
 ```
 
 - Configure Prettier Settings
-  - Customize Prettier's behavior by creating a .prettierrc file in the root of your project. This file allows you to define rules such as tabWidth, semi, singleQuote, etc.
+  - Customize Prettier's behavior by creating a `.prettierrc.json` file in the root of your project. This file allows you to define rules such as tabWidth, semi, singleQuote, etc.
   - Prettier also integrates with .editorconfig files if present in your project for example below:
 
 ```
