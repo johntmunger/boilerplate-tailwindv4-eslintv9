@@ -1,4 +1,4 @@
-# Boilerplate Vuejs 3 with Tailwind.v4 and Eslint.v9 and Prettier Formatting
+# Boilerplate Vuejs 3 with Tailwind v4 and Eslint v9 with Prettier Formatting
 
 There are some dramatic changes when using Tailwind CSS Version 4 along with large updates when migrating or installing Eslint v9 and newer. Scaffold a new project with vue `npm create vue@latest my-vue-app` and take on each of these challenges separately.
 
