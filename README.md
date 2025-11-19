@@ -132,3 +132,7 @@ trim_trailing_whitespace = true
 end_of_line = lf
 max_line_length = 100
 ```
+
+## Demo
+
+`https://vuejs3-piniastore-js-2025.netlify.app/`
