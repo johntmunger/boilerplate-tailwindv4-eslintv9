@@ -54,8 +54,12 @@ function addFriend() {
   </form>
 
   <ul>
-    <li class="entry-form margins" v-for="(name, index) in friends.names" :key="index">
-      <span>
+    <li
+      class="entry-form margins flex-container"
+      v-for="(name, index) in friends.names"
+      :key="index"
+    >
+      <div class="mr-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -71,13 +75,16 @@ function addFriend() {
             style="fill: transparent"
           />
         </svg>
-      </span>
-      <span>{{ name }}</span>
+      </div>
+      <div>{{ name }}</div>
     </li>
   </ul>
 </template>
 
 <style scoped>
+.flex-container {
+  display: flex;
+}
 .entry-form textarea {
   height: 4rem;
 }
