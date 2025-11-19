@@ -7,13 +7,14 @@ let newFriend = ref("");
 
 function addFriend() {
   console.log("Adding friend:", newFriend.value);
-  friends.addFriend(newFriend);
+  friends.addFriend(newFriend.value);
+  newFriend.value = "";
 }
 </script>
 
 <template>
   <form>
-    <input v-model="newFriend" placeholder="Enter friend's name" />
+    <textarea v-model="newFriend" placeholder="Enter friend's name" />
     <button type="button" @click="addFriend">Add Friend</button>
   </form>
   <div>
