@@ -1,4 +1,8 @@
-# Boilerplate Vuejs 3 with Tailwind v4 and Eslint v9 with Prettier Formatting
+# Minimal viable single-page friend application
+
+Using Vuejs 3 and JavaScript with a Pinia storefront for referencing a data array. Demo here [https://vuejs3-piniastore-js-2025.netlify.app](https://vuejs3-piniastore-js-2025.netlify.app/).
+
+## Vuejs 3 with Tailwind v4 and Eslint v9 with Prettier formatting
 
 There are some dramatic changes when using Tailwind CSS Version 4 along with large updates when migrating or installing Eslint v9 and newer. Scaffold a new project with vue `npm create vue@latest my-vue-app` and take on each of these challenges separately.
 
@@ -94,32 +98,37 @@ yarn add --dev prettier
 
 Use [Prettier](https://prettier.io/) to enforce a consistent code style throughout the project. It ensures that all code is formatted automatically, preventing style arguments and saving time. To ensure the exact same version of Prettier, install it as a local development dependency: Integrate with your IDE: Configure your editor (e.g., VS Code) to use Prettier as the default formatter and to run ESLint on save. By following this approach, Prettier handles all code formatting, while ESLint focuses on identifying and fixing code quality and potential bug-related issues, creating a harmonious and efficient development workflow.
 
-- Install the Prettier Extension
-  - Open VS Code.
-  - Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X)
-  - Search for "Prettier - Code formatter" and install it.
+### Install the Prettier Extension
 
-- Open VS Code Settings
-  - Press Ctrl+, (or Cmd+, on macOS) to open the Settings tab.
+- Open VS Code.
+- Go to the Extensions view (Ctrl+Shift+X or Cmd+Shift+X)
+- Search for "Prettier - Code formatter" and install it.
 
-- Set Prettier as the Default Formatter
-  - In the search bar within the Settings tab, type "default formatter"
-  - Under "Editor: Default Formatter", select "Prettier - Code formatter" from the dropdown menu
+### Open VS Code Settings
 
-- Enable Format On Save
-  - In the search bar within the Settings tab, type "format on save"
-  - Check the box next to "Editor: Format On Save
+- Press Ctrl+, (or Cmd+, on macOS) to open the Settings tab.
 
-- If not Enabled Format On Save
-  - If chosen not to use Prettier with Format On Save, then run `npm run format` to manually force correct formatting within the codebase as below:
+### Set Prettier as the Default Formatter
+
+- In the search bar within the Settings tab, type "default formatter"
+- Under "Editor: Default Formatter", select "Prettier - Code formatter" from the dropdown menu
+
+### Enable Format On Save
+
+- In the search bar within the Settings tab, type "format on save"
+- Check the box next to "Editor: Format On Save
+
+### If not Enabled Format On Save
+
+- If chosen not to use Prettier with Format On Save, then run `npm run format` to manually force correct formatting within the codebase as below:
 
 ```sh
 npm run format
 ```
 
-- Configure Prettier Settings
-  - Customize Prettier's behavior by creating a `.prettierrc.json` file in the root of your project. This file allows you to define rules such as tabWidth, semi, singleQuote, etc.
-  - Prettier also integrates with .editorconfig files if present in your project for example below:
+### Configure Prettier Settings
+
+Customize Prettier's behavior by creating a `.prettierrc.json` file in the root of your project. This file allows you to define rules such as tabWidth, semi, singleQuote, etc.
 
 ```
 [*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,vue,css,scss,sass,less,styl}]
@@ -132,7 +141,3 @@ trim_trailing_whitespace = true
 end_of_line = lf
 max_line_length = 100
 ```
-
-## Demo
-
-`https://vuejs3-piniastore-js-2025.netlify.app/`
