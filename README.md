@@ -1,10 +1,7 @@
-# Minimal viable single-page friend application
+# Boilerplate: Vuejs 3, Tailwind v4,  Eslint v9 and Prettier formatting
+Last Updated: November 20, 2025
 
-Using Vuejs 3 and JavaScript with a Pinia storefront for referencing a data array. Demo here [https://vuejs3-piniastore-js-2025.netlify.app](https://vuejs3-piniastore-js-2025.netlify.app/).
-
-## Vuejs 3 with Tailwind v4 and Eslint v9 with Prettier formatting
-
-There are some dramatic changes when using Tailwind CSS Version 4 along with large updates when migrating or installing Eslint v9 and newer. Scaffold a new project with vue `npm create vue@latest my-vue-app` and take on each of these challenges separately.
+There are some large changes when using Tailwind CSS Version 4 along with large updates when migrating or installing Eslint v9 and newer. Scaffold a new project with vue `npm create vue@latest my-vue-app` and take on each of these challenges separately.
 
 # Install Tailwind CSS v4
 
